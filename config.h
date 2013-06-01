@@ -22,7 +22,7 @@
                          /*          ZENBURN_DARK, SOLARIZED_DARK,            */
                          /*          SOLARIZED_LIGHT                          */
 // #define COLOR_TEXT_BOLD        "red"
-// #define COLOR_TEXT_DIM         "#FFFF00"
+// #define COLOR_TEXT_DIM        "gray"
 // #define COLOR_TEXT_HIGHLIGHTED "green"
 // #define COMMAND_AT_ROOT_WINDOW TRUE  /* -r option, run in root window      */
 // #define COMMAND_COLOR_FG       TRUE  /* -fg option, foreground color       */
@@ -40,9 +40,9 @@
 #define    COMMAND_SHOW_VERSION   TRUE  /* -v option, show program version    */
 // #define COMMAND_TAB_NUMBERS    TRUE  /* -[2-9] options, to set tab numbers */
 #define CURSOR_BLINKS          FALSE
-#define CURSOR_COLOR           "SteelBlue"
-#define CURSOR_SHAPE  BLOCK       /* Options: BLOCK, IBEAM, UNDERLINE                  */
-#define DEFAULT_COMMAND        "/bin/bash"
+#define CURSOR_COLOR           "green"
+#define CURSOR_SHAPE      UNDERLINE   /* Options: BLOCK, IBEAM, UNDERLINE                  */
+#define DEFAULT_COMMAND        "/usr/bin/bash"
 // #define DEFAULT_DIRECTORY      g_get_current_dir()
 #define DEFAULT_TERMINAL_SIZE  80x24
 // #define EXPORT_WINDOWID        TRUE
