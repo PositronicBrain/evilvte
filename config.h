@@ -40,8 +40,8 @@
 #define    COMMAND_SHOW_VERSION   TRUE  /* -v option, show program version    */
 // #define COMMAND_TAB_NUMBERS    TRUE  /* -[2-9] options, to set tab numbers */
 #define CURSOR_BLINKS          FALSE
-#define CURSOR_COLOR           "green"
-#define CURSOR_SHAPE      UNDERLINE   /* Options: BLOCK, IBEAM, UNDERLINE                  */
+#define CURSOR_COLOR           "#3FFF3F"
+#define CURSOR_SHAPE      BLOCK   /* Options: BLOCK, IBEAM, UNDERLINE                  */
 #define DEFAULT_COMMAND        "/usr/bin/bash"
 // #define DEFAULT_DIRECTORY      g_get_current_dir()
 #define DEFAULT_TERMINAL_SIZE  80x24

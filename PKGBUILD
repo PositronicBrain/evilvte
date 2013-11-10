@@ -15,7 +15,8 @@ source=("http://www.calno.com/evilvte/${pkgname}-${evtever}.tar.gz"
         config.h)
 
 md5sums=('b1aa708b6c083f7609e1ea2ba10e43a4'
-         '71144321935fbfa8e563e7537e54e3e4')
+         '4e243f6a7f377f1348ce6668c4342b3a')
+
 build(){
     cp $srcdir/config.h $srcdir/${pkgname}-${evtever}/src/
     cd $srcdir/${pkgname}-${evtever}
