@@ -71,8 +71,8 @@
 #define    MENU                   TRUE
 // #define MENU_ENCODING_LIST     "BIG-5", "Default Encoding", "GBK", "EUC-JP"
 // #define MENU_MATCH_STRING_EXEC "firefox"
-#define      MATCH_STRING_L    "chromium" /* left click to open without menu*/
-// #define      MATCH_STRING_M    "firefox" /* middle click to open           */
+// #define      MATCH_STRING_L    "firefox" /* left click to open without menu*/
+#define      MATCH_STRING_M    "firefox" /* middle click to open           */
 #define      MATCH_STRING_HTTP TRUE      /* Detect http(s) and ftp(s)      */
 // #define      MATCH_STRING_MAIL TRUE      /* Detect mailto:                 */
 // #define      MATCH_STRING_FILE TRUE      /* Detect file:///                */
