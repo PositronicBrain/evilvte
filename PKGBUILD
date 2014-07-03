@@ -21,7 +21,7 @@ build(){
     cp $srcdir/config.h $srcdir/${pkgname}-${evtever}/src/
     cd $srcdir/${pkgname}-${evtever}
 
-    ./configure -O2 --with-gtk=3.0 --prefix=/usr || return 1
+    ./configure -O2 --with-gtk=2.0  --prefix=/usr || return 1
 
     make || return 1
 
